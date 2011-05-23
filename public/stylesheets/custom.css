@@ -73,7 +73,7 @@ a:hover {
 }
 
 a:visited {
-	color: #069
+	color: rgp(104,0,0)
 }
 
 /*Navigation*/
@@ -121,6 +121,67 @@ a.signup_button {
 	padding: 20px;
 }   */
 
+/* slick-black-mod buttons */
+.slick-black {
+  background: #111;
+  background: -moz-linear-gradient(top,
+              rgba(50, 50, 50, 0.9) 0%,
+              rgba(30, 30, 30, 0.9) 50%,
+              rgba(20, 20, 20, 0.9) 50%,
+              rgba(0, 0, 0, 0.9) 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%,
+              color-stop(0, rgba(50, 50, 50, 0.9)),
+              color-stop(0.5, rgba(30, 30, 30, 0.9)),
+              color-stop(0.5, rgba(20, 20, 20, 0.9)),
+              color-stop(1, rgba(0, 0, 0, 0.9)));
+  border: 0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
+  -webkit-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
+  box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
+  color: white;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 1;
+  padding: 12px 0;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8), 0 1px 1px rgba(255, 255, 255, 0.3);
+  width: 45%;
+     
+}
+
+.slick-black:hover {
+  background: #222;
+  background: -moz-linear-gradient(top,
+              rgba(70, 70, 70, 0.9) 0%,
+              rgba(50, 50, 50, 0.9) 50%,
+              rgba(40, 40, 40, 0.9) 50%,
+              rgba(20, 20, 20, 0.9) 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%,
+              color-stop(0, rgba(70, 70, 70, 0.9)),
+              color-stop(0.5, rgba(50, 50, 50, 0.9)),
+              color-stop(0.5, rgba(40, 40, 40, 0.9)),
+              color-stop(1, rgba(20, 20, 20, 0.9)));
+  cursor: pointer;
+}
+
+.slick-black:active {
+  background: #000;
+  background: -moz-linear-gradient(top,
+              rgba(30, 30, 30, 0.9) 0%,
+              rgba(20, 20, 20, 0.9) 50%,
+              rgba(10, 10, 10, 0.9) 50%,
+              rgba(0, 0, 0, 0.9) 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%,
+              color-stop(0, rgba(30, 30, 30, 0.9)),
+              color-stop(0.5, rgba(20, 20, 20, 0.9)),
+              color-stop(0.5, rgba(10, 10, 10, 0.9)),
+              color-stop(1, rgba(0, 0, 0, 0.9)));
+}
+
 a.deny_button {
 	margin-left: auto;
 	margin-right: auto;
@@ -146,6 +207,12 @@ a.confirm_button {
 	font-weight: 600;
 	padding: 15px;
 }  
+
+.center-button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;	
+}
 
 
 /* Round corners */

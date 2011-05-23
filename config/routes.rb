@@ -2,6 +2,7 @@ Ptest::Application.routes.draw do
   
   root :to => "pages#home"
   match '/about', :to => "pages#about"
+  match '/newrequest', :to => "requests#new"
 
   resources :requests
 
