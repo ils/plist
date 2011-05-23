@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Rname:</b>
+  <%= @request.rname %>
+</p>
+
+<p>
+  <b>Gdate:</b>
+  <%= @request.gdate %>
+</p>
+
+<p>
+  <b>Tname1:</b>
+  <%= @request.tname1 %>
+</p>
+
+<p>
+  <b>Tname2:</b>
+  <%= @request.tname2 %>
+</p>
+
+<p>
+  <b>Tname3:</b>
+  <%= @request.tname3 %>
+</p>
+
+<p>
+  <b>Tname4:</b>
+  <%= @request.tname4 %>
+</p>
+
+
+<%= link_to 'Edit', edit_request_path(@request) %> |
+<%= link_to 'Back', requests_path %>

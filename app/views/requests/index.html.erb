@@ -1,0 +1,33 @@
+<h1>Listing requests</h1>
+
+<table>
+  <tr>
+    <th>Rname</th>
+    <th>Gdate</th>
+    <th>Tname1</th>
+    <th>Tname2</th>
+    <th>Tname3</th>
+    <th>Tname4</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @requests.each do |request| %>
+  <tr>
+    <td><%= request.rname %></td>
+    <td><%= request.gdate %></td>
+    <td><%= request.tname1 %></td>
+    <td><%= request.tname2 %></td>
+    <td><%= request.tname3 %></td>
+    <td><%= request.tname4 %></td>
+    <td><%= link_to 'Show', request %></td>
+    <td><%= link_to 'Edit', edit_request_path(request) %></td>
+    <td><%= link_to 'Destroy', request, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Request', new_request_path %>

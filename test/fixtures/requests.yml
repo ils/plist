@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  rname: MyString
+  gdate: 2011-05-18
+  tname1: MyString
+  tname2: MyString
+  tname3: MyString
+  tname4: MyString
+
+two:
+  rname: MyString
+  gdate: 2011-05-18
+  tname1: MyString
+  tname2: MyString
+  tname3: MyString
+  tname4: MyString
