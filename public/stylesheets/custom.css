@@ -43,7 +43,7 @@ header {
 
 header img {
 	padding: 1em;
-	background:black;
+	background:inherit;
 	/*background will inherit once transparent gif added*/
 }
 
@@ -130,7 +130,7 @@ a.deny_button {
 	color: #fff;
 	background: black;
 	font-size; 130%;
-	font-weight: 600;
+	font-weight: 400;
 	padding: 10px;
 }  
 
@@ -142,7 +142,7 @@ a.confirm_button {
 	width: 50%;
 	color: #fff;
 	background: rgb(104,0,0);
-	font-size; 130%;
+	font-size; 150%;
 	font-weight: 600;
 	padding: 15px;
 }  
