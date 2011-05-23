@@ -1,4 +1,8 @@
 Ptest::Application.routes.draw do
+  
+  root :to => "pages#home"
+  match '/about', :to => "pages#about"
+
   resources :requests
 
   # The priority is based upon order of creation:

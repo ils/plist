@@ -1,5 +1,13 @@
 .container {
-	width: 710px;
+	width: 800px;
+}
+
+.homeintro {
+	width:100%;
+	font-size:130%;
+	text-align:center;
+	
+	
 }
 
 body {
@@ -10,12 +18,12 @@ body {
       linear,
       left bottom,
       left top,
-      color-stop(0.85, rgb(51,51,51)),
+      color-stop(0.9, rgb(51,51,51)),
       color-stop(1, rgb(104,0,0)));	
     
 	background: -moz-linear-gradient(
       center bottom,
-      rgb(51,51,51) 85%,
+      rgb(51,51,51) 90%,
       rgb(104,0,0) 100%);
 	  	  
 	  height:1000px;
@@ -35,7 +43,7 @@ header {
 
 header img {
 	padding: 1em;
-	background:white;
+	background:black;
 	/*background will inherit once transparent gif added*/
 }
 
@@ -43,7 +51,10 @@ section {
 	margin-top: 1em;
 	font-size: 120%;
 	padding: 20px;
-	background:white;
+	background:rgb(75,75,75);
+	border-color:black;
+	border:solid;
+	
 	/*
 	background: inherit;
 	border:groove;
@@ -53,7 +64,7 @@ section {
 
 /*Links*/
 a {
-	color: #09c;
+	color: rgb(104,0,0);
 	text-decoration: none;
 	}
 a:hover {
@@ -96,7 +107,7 @@ nav ul li a:hover {
 	text-decoration: underline;
 }
 
-/*Sign up button*/
+/*Buttons
 a.signup_button {
 	margin-left: auto;
 	margin-right: auto;
@@ -108,7 +119,34 @@ a.signup_button {
 	font-size; 150%;
 	font-weight: bold;
 	padding: 20px;
-}
+}   */
+
+a.deny_button {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	width: 40%;
+	color: #fff;
+	background: black;
+	font-size; 130%;
+	font-weight: 600;
+	padding: 10px;
+}  
+
+a.confirm_button {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	width: 50%;
+	color: #fff;
+	background: rgb(104,0,0);
+	font-size; 130%;
+	font-weight: 600;
+	padding: 15px;
+}  
+
 
 /* Round corners */
 

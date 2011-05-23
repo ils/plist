@@ -1,6 +1,7 @@
 class RequestsController < ApplicationController
   # GET /requests
   # GET /requests.xml
+  
   def index
     @requests = Request.all
 
